@@ -4,7 +4,7 @@
 """
 
 
-class Rides(dict):
+class Rides:
     """ Holds methods for rides
 
         Attributes:
@@ -24,14 +24,14 @@ class Rides(dict):
                     vehicle_description: str,
                     driver_preferences: str
                 }
-                
+
             all_rides (dict) - Variable Holds all rides
                 {ride_count: {single_ride}}
     """
 
     def __init__(self):
         pass
-        
+
     def fetch_all_rides(self):
         """ (Rides) -> dict
 
