@@ -30,11 +30,12 @@ class Rides:
     """
 
     def __init__(self):
-        pass
+        self.all_rides = {}
+        self.ride_counter = 0
 
     def fetch_all_rides(self):
         """ (Rides) -> dict
 
             Fetches all rides. Returns a dictionary
         """
-        pass
+        return self.all_rides

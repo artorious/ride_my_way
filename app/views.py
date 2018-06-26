@@ -11,5 +11,5 @@ SAMPLE_RIDES = Rides()
 @app.route('/api/v1/rides', methods=['GET'])
 def rides():
     """ Fetches all rides """
-    pass
+    return jsonify(SAMPLE_RIDES.all_rides)
 
