@@ -27,7 +27,11 @@ class TestRoutesCases(unittest.TestCase):
         """
 
         test_response = self.app.get(
+<<<<<<< HEAD
             'api/v1/ridess',
+=======
+            'api/v1/rides?',
+>>>>>>> 021cf5f157f51d23dae510eafcab517969b3d807
             headers={'content-type': 'applcation/json'}
             )
         self.assertEqual(
