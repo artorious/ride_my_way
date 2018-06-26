@@ -5,7 +5,7 @@ from flask import jsonify
 from app.models import Rides
 from app import app
 
-sample_rides = Rides()
+SAMPLE_RIDES = Rides()
 
 
 @app.route('/api/v1/rides', methods=['GET'])
