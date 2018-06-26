@@ -40,4 +40,4 @@ class TestRidesCases(unittest.TestCase):
             Test model returns a dict of the right form with
             all required data
         """
-        self.assertIsInstance(self.sample_rides.fetch_all_rides, dict)
+        self.assertIsInstance(self.sample_rides.all_rides, dict)
