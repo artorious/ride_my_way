@@ -1,6 +1,5 @@
 """ Test cases for views.py """
 import unittest
-import json
 from app import app
 
 
