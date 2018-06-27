@@ -11,7 +11,9 @@ class Rides:
             all_rides (dict) - Class variable Holds all rides
                 {ride_count: {single_ride}}
     """
-    global all_rides = {}
+    global all_rides
+    
+    all_rides = {}
 
     def __init__(self):
         pass
